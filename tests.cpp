@@ -1,4 +1,4 @@
-#include "Bank.h"
+#include "Bank.cpp"
 #include <gtest/gtest.h>
 
 TEST(BankClassTest, NewAccount) {
