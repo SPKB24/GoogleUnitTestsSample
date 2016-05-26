@@ -5,31 +5,16 @@ class Bank {
 
 public: 
 	// Default constructor, start all new accounts at $0
-	Bank() {
-		moneyInAccount = 0;
-	}
+	Bank();
 
 	// Add money to the account
-	bool deposit(double depositAmount) {
-		moneyInAccount += depositAmount;
-		return true;
-	}
+	bool deposit(double depositAmount);
 
 	// Remove money from the account
-	bool withdraw(double withdrawAmount) {
-		if (moneyInAccount < withdrawAmount) {
-			return false;
-		} 
-
-		moneyInAccount -= withdrawAmount;
-
-		return true;
-	}
+	bool withdraw(double withdrawAmount);
 	
 	// Getter for the amount of money in the account
-	double getMoneyInAccount() {
-	    return moneyInAccount;
-	}
+	double getMoneyInAccount();
 
 private:
 	// The amount of money in the account
