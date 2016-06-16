@@ -1,0 +1,15 @@
+testsuites {
+	background-color: #ffffff;
+	width: 100%;
+}
+testsuite {
+	background-color: #101991;
+	display: block;
+	margin-left: 10;
+}
+testcase {
+	display: block;
+	color: #000000;
+	font-size: 20pt;
+	margin-left: 20;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="webpage/design.css"?>
+<testsuites tests="3" failures="0" disabled="0" errors="0" time="0" name="AllTests">
+  <testsuite name="BankClassTest" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="NewAccount" status="run" time="0" classname="BankClassTest" />
+    <testcase name="DepositToAccount" status="run" time="0" classname="BankClassTest" />
+    <testcase name="OverWithdraw" status="run" time="0" classname="BankClassTest" />
+  </testsuite>
+</testsuites>
