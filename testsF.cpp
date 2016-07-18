@@ -6,7 +6,10 @@
 // before each test, and the TearDown() function is called
 // immediately after each test.
 //BankClassTest inherits from public::testing::Test
-class BankClassTest : public ::testing::Test {
+
+using namespace ::testing;
+
+class BankClassTest : public Test {
 protected: //Either public or protected: cannot be private
     virtual void SetUp() {
     }
